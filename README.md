@@ -6,7 +6,11 @@ This repository contains a MATLAB-based heart disease prediction project using A
 Heart disease is one of the leading causes of mortality worldwide, making early prediction important for supporting medical decision-making. In this project, a neural network-based classification model was developed to predict heart disease using clinical data and an engineered feature called **Quantum Pattern**.
 
 ## Dataset
-This project uses the **Heart Prediction (Quantum) Dataset**, which contains 500 entries and 6 input features:
+This project uses the **Heart Prediction (Quantum) Dataset**, which is publicly available on Kaggle:
+
+[Heart Prediction Dataset (Quantum) - Kaggle](https://www.kaggle.com/datasets/shantanugarg274/heart-prediction-dataset-quantum)
+
+The dataset contains clinical variables used for heart disease classification, including:
 - Age
 - Gender
 - Blood Pressure
@@ -14,12 +18,12 @@ This project uses the **Heart Prediction (Quantum) Dataset**, which contains 500
 - Heart Rate
 - Quantum Pattern
 
-The dataset is publicly available from Kaggle. Please download the dataset from the original source and place it in the project folder before running the MATLAB script.
+The target labels are represented as two classes:
+- Heart disease indication
+- No heart disease indication
 
-### Target Classes
-The classification task uses two output classes:
-- **Class 1**: Indication of heart disease
-- **Class 2**: No indication of heart disease
+To keep this repository organized and lightweight, the **raw dataset from Kaggle is not fully re-uploaded**.  
+Instead, this repository includes only the **cleaned dataset** used in the MATLAB implementation and experiments.
 
 ## Research Objective
 The main objective of this project is to compare the performance of two neural network training algorithms:
@@ -88,7 +92,5 @@ This project has been published in an IEEE conference proceeding.
 **Paper Title:**  
 *Heart Disease Prediction Using Scaled Conjugate Gradient and Resilient Backpropagation Neural Network Models*
 
-## Author
-**Aban Athaya Nurza**  
-Electrical Engineering  
-Universitas Muhammadiyah Yogyakarta
+**Link:**  
+[View Publication on IEEE Xplore](https://ieeexplore.ieee.org/document/11470221)
