@@ -6,7 +6,7 @@
 
 %%membaca data fitur dari excel 
 
-T = readtable('DatasetJST.xlsx');%Ganti nama file excel
+T = readtable('Dataset.xlsx');%Ganti nama file excel
 A=T(:,1:6);%Ganti kolom input sesuai dengan jumlah fitur
 inputHeartDisease=table2array(A);
 outputHeartDisease=table2array(T(:,7:8));%Ganti kolom sesuai letak output (target) pada excel
